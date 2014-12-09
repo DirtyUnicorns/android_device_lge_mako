@@ -38,4 +38,4 @@ TARGET_KERNEL_CONFIG := mako_defconfig
 TARGET_VARIANT_CONFIG := mako_defconfig
 TARGET_SELINUX_CONFIG := mako_defconfig
 
-$(call inherit-product-if-exists, vendor/lge/mako/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
