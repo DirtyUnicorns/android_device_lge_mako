@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Prebuilt Chromium
+USE_PREBUILT_CHROMIUM := true
+
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_ABI := armeabi-v7a
