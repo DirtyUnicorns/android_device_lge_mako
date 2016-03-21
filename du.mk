@@ -38,4 +38,8 @@ TARGET_KERNEL_CONFIG := mako_defconfig
 TARGET_VARIANT_CONFIG := mako_defconfig
 TARGET_SELINUX_CONFIG := mako_defconfig
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+   PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:5.1.1/LMY48M/2167285:user/release-keys \
+   PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48M 2167285 release-keys"
+
 $(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
